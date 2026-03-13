@@ -1,0 +1,7 @@
+[plugin]
+deps = []
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:dracula"
+rev = "c02c804"
+hash = "20624fcdfcf7e4e912de05e348065e5e"
