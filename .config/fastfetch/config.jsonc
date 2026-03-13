@@ -1,7 +1,7 @@
 {
   "logo":{
     "type": "file",
-    "source": "~/.config/fastfetch/arch-rainbow.txt",
+    "source": "~/.config/fastfetch/ascii-art.txt",
     "color": {
       "1": "#FF0000", // Red
       "2": "#FF8800", // Orange
