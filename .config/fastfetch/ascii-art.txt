@@ -1,19 +1,19 @@
-$1             .',;::::;,'.
-$1         .';:cccccccccccc:;,.
-$1      .;cccccccccccccccccccccc;.
-$1    .:cccccccccccccccccccccccccc:.
-$2  .;ccccccccccccc;$7.:dddl:.$2;ccccccc;.
-$2 .:ccccccccccccc;$7OWMKOOXMWd$2;ccccccc:.
-$2.:ccccccccccccc;$7KMMc$2;cc;$7xMMc$2;ccccccc:.
-$3,cccccccccccccc;$7MMM.$3;cc;$7;WW:$3;cccccccc,
-$3:cccccccccccccc;$7MMM.$3;cccccccccccccccc:
-$3:ccccccc;$7oxOOOo$3;$7MMM000k.$3;cccccccccccc:
-$4cccccc;$70MMKxdd:$4;$7MMMkddc.$4;cccccccccccc;
-$4ccccc;$7XMO'$4;cccc;$7MMM.$4;cccccccccccccccc'
-$4ccccc;$7MMo$4;ccccc;$7MMW.$4;ccccccccccccccc;
-$5ccccc;$70MNc$5.ccc.$7xMMd$5;ccccccccccccccc;
-$5cccccc;$7dNMWXXXWM0:$5;cccccccccccccc:,
-$5cccccccc;$7':odl:'$5;cccccccccccccc:,.
-$6ccccccccccccccccccccccccccccc:'.
-$6:ccccccccccccccccccccccc:;,..
-$6 ':cccccccccccccccc::;,.
+$1          #      #      
+$1          #      #      
+$1         ##      ##     
+$1         ##      ##     
+$2        ###      ###    
+$2        ###      ###    
+$2       ####      ####   
+$3       ####      ####   
+$3       ####      ####   
+$3       #####    #####   
+$4        *####* #####    
+$4          ########*     
+$4        ###+ *#####+    
+$5       #####+  ######   
+$5      #####      ####*  
+$5        ####-   ####    
+$6          ########      
+$6           +####+       
+$6             ##
