@@ -1,1 +1,18 @@
 theme = "dracula"
+
+[editor]
+line-number = "relative"
+cursorline = true
+continue-comments = false
+color-modes = true
+jump-label-alphabet = "jfhgkdlsa"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator"]
+# editor.statusline.separator = "a"
+
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+

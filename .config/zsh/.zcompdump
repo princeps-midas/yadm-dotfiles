@@ -1,4 +1,4 @@
-#files: 1026	version: 5.9
+#files: 1031	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -96,6 +96,7 @@ _comps=(
 'basename' '_basename'
 'basenc' '_basenc'
 'bash' '_bash'
+'bat' '_bat'
 'batch' '_at'
 'baz' '_baz'
 'beadm' '_beadm'
@@ -1174,6 +1175,7 @@ _comps=(
 'pyhtmlizer' '_twisted'
 'qdbus' '_qdbus'
 'qiv' '_qiv'
+'qpdf' '_qpdf'
 'qtplay' '_qtplay'
 'querybts' '_bug'
 'quilt' '_quilt'
@@ -1417,6 +1419,8 @@ _comps=(
 'systemd-cgtop' '_systemd'
 'systemd-delta' '_systemd-delta'
 'systemd-detect-virt' '_systemd'
+'systemd-hwdb' '_systemd-hwdb'
+'systemd-id128' '_systemd-id128'
 'systemd-inhibit' '_systemd-inhibit'
 'systemd-machine-id-setup' '_systemd'
 'systemd-notify' '_systemd'
@@ -1557,6 +1561,7 @@ _comps=(
 'usbconfig' '_usbconfig'
 'uscan' '_uscan'
 'useradd' '_user_admin'
+'userdbctl' '_userdbctl'
 'userdel' '_users'
 'usermod' '_user_admin'
 'vacuumdb' '_postgresql'
@@ -1906,16 +1911,17 @@ bindkey '^[,' _history-complete-newer
 bindkey '^[/' _history-complete-older
 bindkey '^[~' _bash_complete-word
 
-autoload -Uz _bluetoothctl _bootctl _busctl _bwrap _coredumpctl \
-            _curl _docker _fastfetch _fd _firewalld \
-            _flatpak _hg _hostnamectl _hx _insmod \
-            _journalctl _kernel-install _libinput _localectl _loginctl \
-            _lsmod _networkctl _nvme _oomctl _p11-kit \
-            _podman _resolvectl _rg _rmmod _run0 \
-            _sd_bus_address _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes _sd_unit_files \
-            _skopeo _systemctl _systemd _systemd-analyze _systemd-delta \
-            _systemd-inhibit _systemd-path _systemd-run _systemd-tmpfiles _timedatectl \
-            _toolbox _trust _udevadm _udisks2 _upower \
+autoload -Uz _bat _bluetoothctl _bootctl _busctl _bwrap \
+            _coredumpctl _curl _docker _fastfetch _fd \
+            _firewalld _flatpak _hg _hostnamectl _hx \
+            _insmod _journalctl _kernel-install _libinput _localectl \
+            _loginctl _lsmod _networkctl _nvme _oomctl \
+            _p11-kit _podman _qpdf _resolvectl _rg \
+            _rmmod _run0 _sd_bus_address _sd_hosts_or_user_at_host _sd_machines \
+            _sd_outputmodes _sd_unit_files _skopeo _systemctl _systemd \
+            _systemd-analyze _systemd-delta _systemd-hwdb _systemd-id128 _systemd-inhibit \
+            _systemd-path _systemd-run _systemd-tmpfiles _timedatectl _toolbox \
+            _trust _udevadm _udisks2 _upower _userdbctl \
             _varlinkctl _wl-copy _wl-paste _wpctl _ya \
             _yazi _zoxide _a2ps _a2utils _aap \
             _abcde _absolute_command_paths _ack _acpi _acpitool \
